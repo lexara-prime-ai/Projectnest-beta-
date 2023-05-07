@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | Projectnest | Project | Management</title>
+
+    <link rel="shortcut icon" href="../assets/icons/favicon.ico" type="image/x-icon">
+    
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="../assets/css/register.css">
+
+    <!-- SCRIPTS -->
+    <script src="../build/registration.js" defer></script>
+    <script src="../build/redirect.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="/assets/images/logo.png" alt="">
+            <p>Projectnest</p>
+        </div>
+        <div class="header">
+            <h1> Hi! Welcome</h1>
+            <h2>Please register below</h2>
+        </div>
+        <div class="form-container">
+            <form>
+                <input type="email" id="email" name="username" placeholder="Email or Phone Number" required>
+
+                <input type="text" id="fullname" name="fullname" placeholder="Full name" required>
+
+                <input type="text" id="username" name="username" placeholder="Username" required>
+
+                <div>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                    <p>
+                        Password must least 6 characters, contain number and capial.
+                    </p>
+                    <input type="password" id="confirm-password" name="password" placeholder="Confirm Password" required>
+                </div>
+
+                <h4 class="existing-user">
+                    Have an account?
+                    <span>
+                        Log In
+                    </span>
+                </h4>
+                <button type="submit" id="signupbtn" onclick="redirect()">
+                    Sign Up
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- IONICONS -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

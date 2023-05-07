@@ -1,0 +1,13 @@
+{
+  "name": "projectnest",
+  "version": "1.0.0",
+  "description": "login authentication",
+  "main": "login.ts",
+  "scripts": {
+    "build": "rimraf ./build && tsc",
+    "devStart":" nodemon",
+    "start": "json-server db.json --watch"
+  },
+  "author": "Projectnest",
+  "license": "ISC"
+}

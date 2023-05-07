@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "email": "johndoe@gmail.com",
+      "fullName": "John Doe",
+      "userName": "johndoe",
+      "password": "password123",
+      "confirmPassword": "password123",
+      "id": 1
+    },
+    {
+      "email": "peterpan@gmail.com",
+      "fullName": "peter pan",
+      "userName": "peterpan",
+      "password": "neverland",
+      "confirmPassword": "neverland",
+      "id": 2
+    },
+    {
+      "email": "janedoe@gmail.com",
+      "fullName": "jane doe",
+      "userName": "janedoe",
+      "password": "12345678",
+      "confirmPassword": "12345678",
+      "id": 3
+    }
+  ],
+  "projects": [
+    {
+      "projectName": "fifty8 sports ui updat000e",
+      "assignedTo": "john",
+      "category": "software",
+      "level": 3,
+      "id": 6
+    },
+    {
+      "projectName": "Coca cola logo design",
+      "assignedTo": "carla",
+      "category": "design",
+      "level": 2,
+      "id": 7
+    },
+    {
+      "projectName": "fifty8 sports ui update",
+      "assignedTo": "anita",
+      "category": "web development",
+      "level": 1,
+      "id": 8
+    },
+    {
+      "projectName": "Some new updated project ",
+      "assignedTo": "Zara",
+      "category": "Operating Systems",
+      "level": 1,
+      "id": 9
+    },
+    {
+      "projectName": "Bridge design",
+      "assignedTo": "melvin",
+      "category": "3d modelling",
+      "level": 1,
+      "id": 10
+    }
+  ]
+}
